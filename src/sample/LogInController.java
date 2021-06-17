@@ -2,8 +2,9 @@ package sample;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
-import java.awt.*;
+import javafx.scene.control.TextField;
 
 public class LogInController {
 
@@ -27,7 +28,6 @@ public class LogInController {
     public void logIn(ActionEvent event){
         name = getUsername();
         pass = getPassword();
-        //System.out.println("HIIIII");
     }
 
     public String getUsername(){
