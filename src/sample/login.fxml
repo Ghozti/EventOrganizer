@@ -19,7 +19,8 @@
             </Text>
             <TextField fx:id="nameField" layoutX="224.0" layoutY="174.0" promptText="Username" style="-fx-background-color: #454242;" />
             <PasswordField fx:id="passField" layoutX="226.0" layoutY="234.0" promptText="Password" style="-fx-background-color: #454242;" />
-            <Button fx:id="logInBtn" layoutX="272.0" layoutY="321.0" minHeight="21.0" mnemonicParsing="false" onAction="#logIn" prefHeight="33.0" prefWidth="56.0" style="-fx-background-color: #454242;" text="Login" textFill="#fffbfb" />
+            <Button fx:id="logInBtn" layoutX="272.0" layoutY="300.0" minHeight="21.0" mnemonicParsing="false" onAction="#logIn" prefHeight="33.0" prefWidth="56.0" style="-fx-background-color: #454242;" text="Login" textFill="#fffbfb" />
+            <Button fx:id="register" layoutX="268.0" layoutY="347.0" mnemonicParsing="false" style="-fx-background-color: #454242;" text="Register" />
          </children>
       </AnchorPane>
    </center>

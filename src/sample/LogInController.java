@@ -22,12 +22,20 @@ public class LogInController {
     @FXML
     Button logInbtn;
 
+    //register btn
+    @FXML
+    Button register;
+
     //attributes
     String name,pass;
 
     public void logIn(ActionEvent event){
         name = getUsername();
         pass = getPassword();
+    }
+
+    public void register(ActionEvent event){
+
     }
 
     public String getUsername(){
