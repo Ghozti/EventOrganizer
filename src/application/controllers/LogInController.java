@@ -28,6 +28,7 @@ public class LogInController {
 
     //attributes
     String name,pass;
+    public static boolean registerNewAccount = false;
 
     public void logIn(ActionEvent event){
         name = getUsername();
@@ -35,7 +36,7 @@ public class LogInController {
     }
 
     public void register(ActionEvent event){
-
+        registerNewAccount = true;
     }
 
     public String getUsername(){
