@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #373535;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.RegisterController">
-
-</AnchorPane>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #373535;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="226.0" layoutY="175.0" promptText="Name" style="-fx-background-color: #454242;" />
+            <PasswordField layoutX="226.0" layoutY="230.0" promptText="Password" style="-fx-background-color: #454242;" />
+            <PasswordField layoutX="226.0" layoutY="285.0" promptText="Confirm Password" style="-fx-background-color: #454242;" />
+            <Text fill="WHITE" layoutX="153.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Registration">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Text>
+            <Label layoutX="233.0" layoutY="317.0" prefHeight="17.0" prefWidth="140.0" text="passwords did not match" textFill="WHITE" />
+            <Label layoutX="203.0" layoutY="378.0" text="Success! you may now leave this page" textFill="WHITE" />
+            <Button layoutX="271.0" layoutY="344.0" mnemonicParsing="false" style="-fx-background-color: #454242;" text="Continue" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
