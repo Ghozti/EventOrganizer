@@ -1,10 +1,13 @@
 package application.controllers;
 
+import application.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+
+import java.io.IOException;
 
 public class LogInController {
 
@@ -28,15 +31,16 @@ public class LogInController {
 
     //attributes
     String name,pass;
-    public static boolean registerNewAccount = false;
 
     public void logIn(ActionEvent event){
         name = getUsername();
         pass = getPassword();
     }
 
-    public void register(ActionEvent event){
-        registerNewAccount = true;
+    public void register(ActionEvent event) throws IOException {
+        System.out.println("hiii");
+        Main main = new Main();
+        main.changeScene("fxlm/register.fxml","register",600,400);
     }
 
     public String getUsername(){

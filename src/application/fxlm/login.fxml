@@ -12,7 +12,7 @@
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #373535;" BorderPane.alignment="CENTER">
          <children>
-            <Text fill="WHITE" layoutX="177.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Manager ">
+            <Text fill="WHITE" layoutX="177.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Manager " wrappingWidth="246.453125">
                <font>
                   <Font name="Lucida Fax Regular" size="32.0" />
                </font>
@@ -20,7 +20,7 @@
             <TextField fx:id="nameField" layoutX="224.0" layoutY="174.0" promptText="Username" style="-fx-background-color: #454242;" />
             <PasswordField fx:id="passField" layoutX="226.0" layoutY="234.0" promptText="Password" style="-fx-background-color: #454242;" />
             <Button fx:id="logInBtn" layoutX="272.0" layoutY="300.0" minHeight="21.0" mnemonicParsing="false" onAction="#logIn" prefHeight="33.0" prefWidth="56.0" style="-fx-background-color: #454242;" text="Login" textFill="#fffbfb" />
-            <Button fx:id="register" layoutX="268.0" layoutY="348.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #454242;" text="Register" textFill="WHITE" />
+            <Button fx:id="register" layoutX="268.0" layoutY="348.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #454242;" text="Register" textFill="WHITE" />
          </children>
       </AnchorPane>
    </center>
